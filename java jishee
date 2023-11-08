@@ -1,0 +1,69 @@
+.javascript.zuragnuud {
+    position: static;
+    width: auto;
+    height: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: linear-gradient(to right, #9e07e0, #3198f5);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.top-bg {
+    background-image: url('Group.jpg');
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    margin-top: -25px;
+}
+
+.logo {
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.hovers {
+    border: 2px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    float: right; /* Corrected */
+    text-decoration: none;
+    transition: color 0.3s, background-color 0.3s; /* Combined transition properties */
+}
+
+.hovers a {
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: transparent; /* Corrected */
+    border: 2px solid white;
+    border-radius: 2rem;
+}
+
+.hovers:hover {
+    color: #7117ef;
+}
