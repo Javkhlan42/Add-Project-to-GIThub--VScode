@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Нүүр хуудас</title>
+    <link rel="stylesheet" href="zurag.css">
+</head>
+<body>
+    <div class="top-bg">
+        <div class="hovers">
+            <a href="index.html">Нүүр</a>
+            <a href="resume.html">Кинонууд</a>
+            <a href="Холбоо барих">Link</a>
+            <a href="">Биднийг дагах</a>
+        </div>
+        <h1 style="color: white" class="logo">ONLY MOVIES</h1>
+    </div>
+
+    <header>
+        <h1>Тасалбараа захиалаарай</h1>
+    </header>
+
+    <div class="container">
+        <h2>Үзэх киногоо сонгох</h2>
+        <select id="movieSelector">
+            <option value="movie1">Movie 1</option>
+            <option value="movie2">Movie 2</option>
+            <option value="movie3">Movie 3</option>
+        </select>
+
+        <h2>Хугацааг сонгох</h2>
+        <input type="date" id="date" name="date">
+        <input type="time" id="time" name="time">
+
+        <h2>Тасалбарын дугаар сонгох</h2>
+        <input type="number" id="tickets" name="tickets" min="1" value="1">
+
+        <h2>Миний мэдээлэл</h2>
+        <form id="bookingForm">
+            <label for="name">Нэр:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <input type="submit" value="Book Tickets">
+        </form>
+    </div>
+
+    <script>
+        // JavaScript code for form submission
+        document.getElementById("bookingForm").addEventListener("submit", function (event) {
+            event.preventDefault(); // Prevent form submission
+            // You can add your custom JavaScript logic here to handle the form submission
+            alert("Booking submitted!"); // Replace with your desired action
+        });
+    </script>
+</body>
+</html>
